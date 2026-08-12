@@ -1,0 +1,20 @@
+[project]
+name = "a2a_weather_ticket_host"
+version = "0.1.0"
+description = "A2A host that picks the best weather day and queries 12306 train tickets via remote agents"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "click>=8.2.0",
+    "geopy>=2.4.1",
+    "google-adk>=1.0.0,<2.0.0",
+    "gradio>=5.30.0",
+    "langchain-google-genai>=2.1.5",
+    "langchain-mcp-adapters>=0.0.9",
+    "langchain-google-vertexai>=2.0.24",
+    "langgraph>=0.4.5",
+    "mcp>=1.5.0",
+    "a2a-sdk>=0.3.3,<1.0.0",
+    "litellm"
+]
+

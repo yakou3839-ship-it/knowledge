@@ -1,0 +1,9 @@
+[project]
+name = "china_weather_mcp"
+version = "0.1.0"
+description = "FastMCP server for China weather forecasts via Open-Meteo"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27.0",
+    "mcp>=1.5.0,<2.0.0",
+]
